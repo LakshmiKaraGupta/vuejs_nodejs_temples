@@ -2,9 +2,9 @@ const fs = require('fs/promises');
 const MongoClient = require('mongodb').MongoClient;
 const contentType = require('./contentType.js');
 
-const MongoDbUrl = process.env.MONGO_DB_URL || "mongodb+srv://guptalakshmikara:Nokia%401669@temples.5ogrvfm.mongodb.net/";
-const MongoDb =  process.env.MONGO_DB || "temples";
-const MongoDbCollection = process.env.MONGO_DB_TABLE || "temples";
+const MongoDbUrl = "mongodb+srv://guptalakshmikara:Nokia%401669@temples.5ogrvfm.mongodb.net/";
+const MongoDb =  "temples";
+const MongoDbCollection = "temples";
 
 const connection = new MongoClient(MongoDbUrl);
 
@@ -18,14 +18,18 @@ const ApiHandler = async (req, res) => {
       };
 
 	try {
-    await connection.connect();
+    const options = {
+      connectTimeoutMS: 30000, // 30 seconds
+      socketTimeoutMS: 45000, // 45 seconds
+    };
+    await connection.connect(options);
     const db = connection.db(MongoDb);
     const collection = db.collection(MongoDbCollection);
 
     if (req.method === 'GET') {
       const data = await collection.find({}).toArray();
       const json = JSON.stringify(data, null, 2);
-      // await fs.writeFile('./public/db.json', json, 'utf8');
+      await fs.writeFile('./public/db.json', json, 'utf8');
       res.writeHead(200, header);
       res.end(json);
     } else {
