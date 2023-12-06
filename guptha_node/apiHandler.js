@@ -25,7 +25,7 @@ const ApiHandler = async (req, res) => {
     if (req.method === 'GET') {
       const data = await collection.find({}).toArray();
       const json = JSON.stringify(data, null, 2);
-      await fs.writeFile('./public/db.json', json, 'utf8');
+      // await fs.writeFile('./public/db.json', json, 'utf8');
       res.writeHead(200, header);
       res.end(json);
     } else {
@@ -33,6 +33,7 @@ const ApiHandler = async (req, res) => {
       res.end('Method Not Allowed');
     }
   } catch (err) {
+    console.log("error occured!");
     console.error(err);
     res.writeHead(500, { 'Content-Type': 'text/plain' });
     res.end('Internal Server Error');
