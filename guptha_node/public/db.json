@@ -1,0 +1,52 @@
+[
+  {
+    "_id": "655f9eaecf97b4312192c1c0",
+    "Temple": "Tirumala Temple (Sri Venkateswara Temple)",
+    "Location": "Tirumala, Andhra Pradesh, India",
+    "Period": "16th century (current structure)",
+    "Deity": "Lord Sri Venkateswara",
+    "Architecture": "Dravidian architecture",
+    "Significance": "One of the most important pilgrimage sites for Hindus and one of the wealthiest religious institutions in the world.",
+    "image_url": "https://assets.cntraveller.in/photos/60ba1153002baf698cc66e6c/16:9/w_1280,c_limit/Tirumala-1366x768.jpg"
+  },
+  {
+    "_id": "655f9eaecf97b4312192c1c1",
+    "Temple": "Meenakshi Amman Temple (Meenakshi Sundareswarar Temple)",
+    "Location": "Madurai, Tamil Nadu, India",
+    "Period": "14th to 17th centuries (current structure)",
+    "Deity": "Goddess Meenakshi and Lord Sundareswarar",
+    "Architecture": "Dravidian architecture",
+    "Significance": "Prominent and ancient temple known for its stunning architecture and religious importance.",
+    "image_url": "https://www.abhibus.com/blog/wp-content/uploads/2023/04/Madurai-Meenakshi-Temple-History-Timings-How-to-Reach.jpg"
+  },
+  {
+    "_id": "655f9eaecf97b4312192c1c2",
+    "Temple": "Sree Padmanabha Swamy Temple",
+    "Location": "Thiruvananthapuram, Kerala, India",
+    "Period": "18th century (current structure)",
+    "Deity": "Lord Padmanabhaswamy",
+    "Architecture": "Dravidian and Kerala Architecture",
+    "Significance": "Known for its architectural beauty and the immense treasures in its vaults.",
+    "image_url": "https://static.theprint.in/wp-content/uploads/2020/07/ttemple.jpg"
+  },
+  {
+    "_id": "655f9eaecf97b4312192c1c3",
+    "Temple": "Sri Kalahasteeswara Temple",
+    "Location": "Srikalahasti, Andhra Pradesh, India",
+    "Period": "Ancient times with renovations",
+    "Deity": "Lord Shiva (as Kalahasteeswara)",
+    "Architecture": "Dravidian architecture",
+    "Significance": "One of the Pancha Bhoota Stalas, representing the element of air (Vayu).",
+    "image_url": "https://www.indiantempletour.com/wp-content/uploads/2023/03/Srikalahasti.jpg"
+  },
+  {
+    "_id": "655f9eaecf97b4312192c1c4",
+    "Temple": "Jagannath Temple",
+    "Location": "Puri, Odisha, India",
+    "Period": "12th century (construction started)",
+    "Deity": "Lord Jagannath, Lord Balabhadra, and Goddess Subhadra",
+    "Architecture": "Kalinga architecture",
+    "Significance": "Famous for its annual Rath Yatra (chariot festival) and holds immense religious importance in Hinduism and Odisha culture.",
+    "image_url": "https://www.tripsavvy.com/thmb/CqvMyrnnVy5fNLFYTr5zW13s-XE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/_DSC0713_Snapseed_Darkroom-819d0b229974460e8141622c4494e2ed.jpg"
+  }
+]

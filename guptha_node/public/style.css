@@ -1,0 +1,165 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+nav {
+    background-color: #333;
+    color: white;
+    padding: 5px 0;
+    margin: 10px;
+    border-radius: 10px;
+    
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between; 
+}
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+
+}
+nav li {
+    flex: 1; 
+    text-align: center; 
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: yellowgreen;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    margin: 20px;
+    padding: 20px;
+    background-color: #C9E4CA;
+    border-radius: 5px;
+    font-family: 'Georgia', serif;
+}
+header .leftcontent{
+    flex: 1;
+    text-align: left;
+    
+}
+header .rightcontent{
+    flex: 1;
+    text-align: left;
+}
+header img{
+    max-width: 500px;
+    border-radius: 10px;
+    border: black;
+    background-color: #9d4edd;
+    display: block;
+    margin: 0 auto;
+}
+header h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin: 0;     
+}
+  header p {
+    font-size: 1.2rem;
+    color: black;
+    margin: 0;
+}
+.button{
+    margin: 40px;
+    background-color: black;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+#About{
+    background-color: #CAF0F8;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+#Education {
+    background-color: #ADE8F4;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+#Education h3{
+    color: black;
+    width: 100%;
+    text-align: start;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+#Projects{
+    background-color: #90E0EF;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+    text-align: left; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+#Projects h3{
+    color: black;
+}
+#Skills{
+    background-color: #48CAE4;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+#Programmingskills{
+    background-color: #00B4D8;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+#SocialMedia{
+    background-color: #00A5D0;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.socialmedia {
+    float: left;
+    margin-right: 20px;
+    height: 50px;
+    width: auto;
+    border-radius: 5px;
+    align-items: center;
+}
+.socialmedia p{
+    margin: 0;
+    padding: 5px;
+}
+.socialmedia img{
+    margin-right: 20px;
+    height: 50px;
+    width: auto;
+    border-radius: 5px;
+    margin-right: 20px;
+    display: inline-block;
+}
