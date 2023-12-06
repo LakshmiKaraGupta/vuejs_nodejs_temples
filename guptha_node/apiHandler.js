@@ -39,17 +39,8 @@ const ApiHandler = async (req, res) => {
   } catch (err) {
     console.log("error occured!");
     console.error(err);
-    // try {
-    //   // Attempt to read the local json file
-    //   const fallbackData = await fs.readFile('./public/db.json', 'utf8');
-    //   res.writeHead(200, { 'Content-Type': 'application/json' });
-    //   res.end(fallbackData);
-    // } catch (readError) {
-    //   // If there is an error reading the file, send a 500 error
-    //   console.error(readError);
-    //   res.writeHead(500, { 'Content-Type': 'text/plain' });
-    //   res.end('Internal Server Error');
-    // }
+    res.writeHead(500, { 'Content-Type': 'text/plain' });
+    res.end('Internal Server Error');
   } finally {
     await connection.close();
   }
